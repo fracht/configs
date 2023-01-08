@@ -1,0 +1,24 @@
+{
+	"name": "configs",
+	"version": "1.0.0",
+	"description": "",
+	"private": true,
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"lint": "eslint .",
+		"lint:fix": "pnpm lint --fix",
+		"format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,yml,yaml}\""
+	},
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"devDependencies": {
+		"@sirse-dev/eslint-config": "^1.0.12",
+		"@types/prettier": "^2.7.2",
+		"eslint": "^8.31.0",
+		"eslint-config-prettier": "^8.6.0",
+		"prettier": "^2.8.2",
+		"typescript": "^4.9.4"
+	}
+}
