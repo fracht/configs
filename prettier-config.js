@@ -16,6 +16,7 @@ const defineConfig = (overrides) => {
 		bracketSpacing: true,
 		embeddedLanguageFormatting: 'auto',
 		jsxSingleQuote: false,
+		endOfLine: 'auto',
 		...overrides,
 	};
 };
