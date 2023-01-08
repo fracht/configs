@@ -5,6 +5,8 @@
 		"node": true
 	},
 	"rules": {
-		"unicorn/prefer-module": "off"
+		"unicorn/prefer-module": "off",
+		"lodash/import-scope": "off",
+		"@typescript-eslint/no-var-requires": "off"
 	}
 }
